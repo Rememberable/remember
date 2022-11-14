@@ -1,6 +1,9 @@
 # UBUNTU
 
-### Update system
+# Table of contents
+1. [Update system](#update-system)
+
+### Update system <a name="update-system"></a>
 ```shell
 sudo apt update && sudo apt upgrade -y
 ```
