@@ -10,12 +10,11 @@ sudo apt install php8.1-dev -y
 ```
 Try first:
 ```shell
-sudo apt install redis-server
-sudo apt install redis-tools
-sudo apt-get install php8.1-redis -y
-sudo /etc/init.d/redis-server start
-sudo /etc/init.d/redis-server status
+sudo apt install redis-server -y && sudo apt install redis-tools
+sudo systemctl status redis
+sudo systemctl restart redis
 ```
+
 If it is not full install redis, do this:
 ```shell
 git clone https://github.com/phpredis/phpredis.git

@@ -54,7 +54,7 @@ SOURCE /home/ubuntu/projects/remember/examples/mysql/sakila-db/sakila-data.sql;
 
 ### Show full tables
 ```mysql
- SHOW FULL TABLES;
+SHOW FULL TABLES;
 ```
 
 ### Add foreign key

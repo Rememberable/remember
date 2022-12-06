@@ -5,7 +5,7 @@ Official installation instructions: [node.js](https://github.com/nodesource/dist
 
 * Install node js last version.
 ```shell
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash -
 sudo apt-get update && sudo apt autoremove -y
 sudo apt-get install -y nodejs
 ```

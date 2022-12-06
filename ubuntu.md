@@ -2,18 +2,18 @@
 
 # Table of contents
 1. [Update system](#update-system)
-
+2. 
 ### Update system <a name="update-system"></a>
 ```shell
 sudo apt update && sudo apt upgrade -y
 ```
 
-### Install usefully tools
+### Install usefully tools <a name="install-usefully-tools"></a>
 ```shell
 sudo apt install net-tools
 ```
 
-### Work with systemd processes
+### Work with systemd processes <a name="work-with-systemd-processes"></a>
 ```shell
 sudo systemctl restart <systemd-process-name>
 sudo systemctl stop <systemd-process-name>
@@ -132,4 +132,11 @@ scp readme.txt user@192.168.0.1:/home/user/temp
 Copy with special ssh key
 ```shell
 scp -r -i ~/.ssh/digitalocean readme.txt user@192.168.0.1:/home/user/temp
+```
+
+### Install Memcached on ubuntu
+```shell
+sudo apt install memcached libmemcached-tools -y
+sudo systemctl status memcached
+sudo systemctl restart memcached
 ```

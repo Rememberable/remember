@@ -22,9 +22,11 @@ sudo apt install php8.1-mbstring -y
 sudo apt install php8.1-gmp -y
 sudo apt install php8.1-zip -y
 sudo apt install php8.1-xml -y
+sudo apt install php8.1-dev -y
+sudo apt install php8.1-redis -y
 ```
 ```shell
-sudo apt install php8.1-common && sudo apt install php8.1-cli && sudo apt install php8.1-fpm && sudo apt install php8.1-mysql && sudo apt install php8.1-memcache && sudo apt install php8.1-memcached -y && sudo apt install php8.1-bcmath && sudo apt install php8.1-curl && sudo apt install php8.1-mbstring -y && sudo apt install php8.1-gmp -y && sudo apt install php8.1-zip -y && sudo apt install php8.1-xml -y
+sudo apt install php8.1-common && sudo apt install php8.1-cli && sudo apt install php8.1-fpm && sudo apt install php8.1-mysql && sudo apt install php8.1-memcache && sudo apt install php8.1-memcached -y && sudo apt install php8.1-bcmath && sudo apt install php8.1-curl && sudo apt install php8.1-mbstring -y && sudo apt install php8.1-gmp -y && sudo apt install php8.1-zip -y && sudo apt install php8.1-xml -y && sudo apt install php8.1-dev -y && sudo apt install php8.1-redis -y
 ```
 
 ### Install composer
