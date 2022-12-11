@@ -1,6 +1,7 @@
 # PHPSTORM SETTINGS
 
 ### Hot button
+* 
 * `cntr + alt + s` - open settings
 * `shift + shift` - open finder to find all files and settings in phpstorm
 * `cntr + f` - find file
@@ -24,6 +25,10 @@
 * `f5` - Copy file
 * `f6` - Move file
 * `cntr + alt + b` - Introduce expression to variable
+* `cntr + -` - Hide 
+* `cntr + =` - Not hide
+* `alt + f4` - Close
+* `cntr + shift + n` - Toggle number lines
 
 ### Change font size
 `Settings -> Editor -> General -> Mouse Control`
