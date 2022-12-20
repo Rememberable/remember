@@ -140,3 +140,8 @@ sudo apt install memcached libmemcached-tools -y
 sudo systemctl status memcached
 sudo systemctl restart memcached
 ```
+
+### Remove all `Zone.Identifier` files in folder
+```shell
+find . -name "*:Zone.Identifier" -type f -delete
+```

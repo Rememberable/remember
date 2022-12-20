@@ -25,6 +25,7 @@
 * `f5` - Copy file
 * `f6` - Move file
 * `cntr + alt + b` - Introduce expression to variable
+* `cntr + alt + n` - Inline variable
 * `cntr + -` - Hide 
 * `cntr + =` - Not hide
 * `alt + f4` - Close
