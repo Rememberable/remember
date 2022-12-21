@@ -30,9 +30,9 @@ alias nvim=/home/ubuntu/nvim.appimage
 4) `l` Left
 
 ### Turn on VISUAL Mode
-1) press `v2` for visual mode
-2) press `shift + v2` for visual line mode
-3) press `cntr + alt + v2` for visual block mode
+1) press `v` for visual mode
+2) press `shift + v` for visual line mode
+3) press `cntr + alt + v` for visual block mode
 
 You can press `o` to opposite current selection
 
@@ -75,7 +75,7 @@ Buffer.
 + `qa` - quit all
 
 ### Motions, Commands, Text Objects
-+ `set number` - numeric lines2
++ `set number` - numeric lines
 + `shift + g` - jump to the last line
 + `g + g` - jump to the first line
 + `numeric number of code + g` - jump to the numeric code
@@ -156,3 +156,13 @@ Select all the text of file
 
 + `cntr + d` - delete tmux window
 + `tmux kill-server` - kill tmux server
+
+### Neovim Settings
++ `: + so` - Turn on numbers line
++ `21 + k` - Jump up to 21 number line
++ `21 + j` - Jump down to 21 number line
++ `:help 'wildmode'` - Open nvim helper
+
+### Key Mapping
++ `alt + k` - Move line up
++ `alt + j` - Move line down
