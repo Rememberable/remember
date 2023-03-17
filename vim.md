@@ -1,5 +1,8 @@
 # VIM
 
+### Usefull links for vim
+https://rigovanov.ru/vim/ - list of commands
+
 ### Change .vimrc configuration
 + `: + so %` - you need type to update configuration of vim
 
