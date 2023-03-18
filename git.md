@@ -1,5 +1,8 @@
 # GIT
 
+### Usefull links
+Model development and version control in (article)[https://habr.com/ru/post/106912/]
+
 ### Git version
 ```shell
 git --version
