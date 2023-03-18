@@ -1,5 +1,13 @@
 # DOCKER
 
+### Usefull links
+* Here [article](https://dev.to/waji97/docker-image-management-3558) 
+about docker tar archive, 
+images ommits, 
+docker build, 
+docker build cache,
+incredible decrease size of docker image
+
 ### Install Docker
 * Official docs [here](https://docs.docker.com/engine/install/ubuntu/)
 ```shell
