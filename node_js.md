@@ -6,15 +6,15 @@ Official installation instructions: [node.js](https://github.com/nodesource/dist
 * Install node js last version.
 ```shell
 curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash -
-sudo apt-get update && sudo apt autoremove -y
-sudo apt-get install -y nodejs
+sudo apt update && sudo apt autoremove -y
+sudo apt install -y nodejs
 ```
 
 * You can install npm last version: `sudo npm install npm@latest -g`. Or choose version: `sudo npm install npm@8.19.2 -g`
 
 ### Uninstall node js
 ```shell
-sudo apt-get remove nodejs -y && sudo apt-get remove npm -y && sudo apt-get update
+sudo apt remove nodejs -y && sudo apt remove npm -y && sudo apt update
 ```
 
 ### Install pm2
