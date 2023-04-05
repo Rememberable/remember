@@ -5,30 +5,30 @@
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt install php8.1 -y
+sudo apt install php8.2 -y
 ```
 
 ### Install php libraries
 ```shell
-sudo apt install php8.1-common
-sudo apt install php8.1-cli
-sudo apt install php8.1-fpm
-sudo apt install php8.1-mysql
-sudo apt install php8.1-memcache
-sudo apt install php8.1-memcached -y
-sudo apt install php8.1-bcmath
-sudo apt install php8.1-curl
-sudo apt install php8.1-mbstring -y
-sudo apt install php8.1-gmp -y
-sudo apt install php8.1-zip -y
-sudo apt install php8.1-xml -y
-sudo apt install php8.1-dev -y
-sudo apt install php8.1-redis -y
-sudo apt-get install php8.1-gd -y
-sudo apt-get install php8.1-sqlite3
+sudo apt install php8.2-common
+sudo apt install php8.2-cli
+sudo apt install php8.2-fpm
+sudo apt install php8.2-mysql
+sudo apt install php8.2-memcache
+sudo apt install php8.2-memcached -y
+sudo apt install php8.2-bcmath
+sudo apt install php8.2-curl
+sudo apt install php8.2-mbstring -y
+sudo apt install php8.2-gmp -y
+sudo apt install php8.2-zip -y
+sudo apt install php8.2-xml -y
+sudo apt install php8.2-dev -y
+sudo apt install php8.2-redis -y
+sudo apt-get install php8.2-gd -y
+sudo apt-get install php8.2-sqlite3
 ```
 ```shell
-sudo apt install php8.1-common && sudo apt install php8.1-cli && sudo apt install php8.1-fpm && sudo apt install php8.1-mysql && sudo apt install php8.1-memcache && sudo apt install php8.1-memcached -y && sudo apt install php8.1-bcmath && sudo apt install php8.1-curl && sudo apt install php8.1-mbstring -y && sudo apt install php8.1-gmp -y && sudo apt install php8.1-zip -y && sudo apt install php8.1-xml -y && sudo apt install php8.1-dev -y && sudo apt install php8.1-redis -y
+sudo apt install php8.2-common && sudo apt install php8.2-cli && sudo apt install php8.2-fpm && sudo apt install php8.2-mysql && sudo apt install php8.2-memcache && sudo apt install php8.2-memcached -y && sudo apt install php8.2-bcmath && sudo apt install php8.2-curl && sudo apt install php8.2-mbstring -y && sudo apt install php8.2-gmp -y && sudo apt install php8.2-zip -y && sudo apt install php8.2-xml -y && sudo apt install php8.2-dev -y && sudo apt install php8.2-redis -y
 ```
 
 ### Install composer
