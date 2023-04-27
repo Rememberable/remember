@@ -1,5 +1,10 @@
 # GIT
 
+### Beautiful git commit history
+```shell
+git log --graph --pretty=format:'%Cred%h%Creset -%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+```
+
 ### Usefull links
 Model development and version control in (article)[https://habr.com/ru/post/106912/]
 
