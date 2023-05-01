@@ -1,7 +1,8 @@
 # PHPSTORM SETTINGS
 
-### Hot button
-* 
+## Hot button
+
+*
 * `cntr + alt + s` - open settings
 * `shift + shift` - open finder to find all files and settings in phpstorm
 * `cntr + f` - find file
@@ -26,10 +27,19 @@
 * `f6` - Move file
 * `cntr + alt + b` - Introduce expression to variable
 * `cntr + alt + n` - Inline variable
-* `cntr + -` - Hide 
+* `cntr + -` - Hide
 * `cntr + =` - Not hide
 * `alt + f4` - Close
 * `cntr + shift + n` - Toggle number lines
 
-### Change font size
+## Change font size
+
 `Settings -> Editor -> General -> Mouse Control`
+
+## Plugins
+
+### Markdown
+
+* `command + b` - add bold `****`
+* `command + i` - add italic `__`
+* `command + i` - insert mode, you can add table, image and **table of content**
