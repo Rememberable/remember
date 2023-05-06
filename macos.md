@@ -26,7 +26,7 @@
 5) space - toggle preview of file
 6) Cmd + Shift + 4 - take a part of screenshot
 7) Cmd + Shift + 4 + space - will take a hover screenshot block
-8) Cntrl + Shift + f - fullscreen application
+8) Cntrl + Cmd + f - fullscreen application
 9) Cmd + q - close application
 
 ### Homebrew - package manager
