@@ -1,9 +1,11 @@
 # NVIM
 
 ### Install nvim
+
 Official installation instructions: [nvim](https://github.com/neovim/neovim/wiki/Installing-Neovim#linux)
 
-* Install nvim.
+* Install nvim on windows
+
 ```shell
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
@@ -11,6 +13,7 @@ chmod u+x nvim.appimage
 ```
 
 ### add alias
+
 ```shell
 sudo nano ~/.bashrc
 alias nvim=/home/ubuntu/nvim.appimage
@@ -19,17 +22,20 @@ alias nvim=/home/ubuntu/nvim.appimage
 ## Management
 
 ### Copy and Paste
+
 1) Press `Esc`
 2) Press `yy`
 3) Press `p`
 
 ### Move Right Up Down Left
+
 1) `h` Right
 2) `j` Up
 3) `k` Down
 4) `l` Left
 
 ### Turn on VISUAL Mode
+
 1) press `v` for visual mode
 2) press `shift + v` for visual line mode
 3) press `cntr + alt + v` for visual block mode
@@ -37,18 +43,21 @@ alias nvim=/home/ubuntu/nvim.appimage
 You can press `o` to opposite current selection
 
 ### Add text before words
+
 1) Go to visual block mode
 2) Press `shift + i`
 3) Type the word
 4) Press `Esc`
 
 ### Add text after words
+
 1) Go to visual block mode
 2) Press `$`, `shift + a`
 3) Type the word
 4) Press `Esc`
 
 ### Turn on command mode
+
 Type `:`
 
 + `w file.txt` - Save file
@@ -59,6 +68,7 @@ Type `:`
 + `enew` - Create empty environment
 
 Buffer.
+
 1) Open files by typing `e`
 2) Execute command `ls` - you see all files
 
@@ -75,6 +85,7 @@ Buffer.
 + `qa` - quit all
 
 ### Motions, Commands, Text Objects
+
 + `set number` - numeric lines
 + `shift + g` - jump to the last line
 + `g + g` - jump to the first line
@@ -102,11 +113,11 @@ Buffer.
 + `a` - insert mode after
 + `shift + o` - insert mode above line
 + `o` - insert mode below line
-+ `shift + i` - insert to the beginning of line 
-+ `shift + a` - insert to the end of line 
-+ `x` - delete symbol 
-+ `d + w` - delete word 
-+ `.` - repeat 
++ `shift + i` - insert to the beginning of line
++ `shift + a` - insert to the end of line
++ `x` - delete symbol
++ `d + w` - delete word
++ `.` - repeat
 + `d + shift + w` - delete with coma or specifies symbols
 + `d + ^` - delete all until the beginning
 + `d + $` or `shift + d` - delete all until the ending
@@ -124,6 +135,7 @@ Buffer.
 + `5 + p` - paste 5 times
 
 ### Text Object
+
 + `i + w` - select whole word with space in visual mode
 + `a + w` - select whole word without space in visual mode
 + `d + a + w` - delete around word
@@ -133,14 +145,17 @@ Buffer.
 + `Tutor` - It is tutorial to help you all functionality in neovim, type in command mode
 
 ### Practical examples
+
 Select all the text of file
+
 1) `g + g`
 2) `shift + v`
 3) `shift + g`
 
-
 ### Tmux
+
 `cntr + b` - all tmux commands start with (Remember if you create .tmux.conf, you can rewrite to `cntr + space`)
+
 + `+ c` - Create new window
 + `+ 0` or `1` - Switch between windows
 + `+ n` or `p` - Switch to the next or previous window
@@ -158,11 +173,18 @@ Select all the text of file
 + `tmux kill-server` - kill tmux server
 
 ### Neovim Settings
+
 + `: + so` - Turn on numbers line
 + `21 + k` - Jump up to 21 number line
 + `21 + j` - Jump down to 21 number line
 + `:help 'wildmode'` - Open nvim helper
 
 ### Key Mapping
+
 + `alt + k` - Move line up
 + `alt + j` - Move line down
+
+### More nvim combinations
+
++ `c + s + ' + "` - replace inside `'` to `"`
++ `d + s + t` - delete surrounded tag

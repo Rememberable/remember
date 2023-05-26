@@ -145,3 +145,8 @@ sudo systemctl restart memcached
 ```shell
 find . -name "*:Zone.Identifier" -type f -delete
 ```
+
+### Check all ports
+```shell
+sudo lsof -i -P | grep LISTEN | grep :$PORT
+```
