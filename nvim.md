@@ -201,3 +201,11 @@ In plugins/telescope.lua you can find combinations with telescope
 + `space + n` - open tree menu
 + `[ + b` - switch to left buffer
 + `] + b` - switch to right buffer
+
+Git integration:
+
+* `[ + h` - jump between git changes in file
+* `] + h` - jump between git changes in file
+* `gp` - watch previous changes
+* `:G blame` - show git changes in file
+* `:GBrowse` - see the file in browse in github repository
