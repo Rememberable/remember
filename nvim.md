@@ -184,7 +184,20 @@ Select all the text of file
 + `alt + k` - Move line up
 + `alt + j` - Move line down
 
-### More nvim combinations
+### More nvim
 
 + `c + s + ' + "` - replace inside `'` to `"`
 + `d + s + t` - delete surrounded tag
+
+In plugins/telescope.lua you can find combinations with telescope
+
++ `space + f` - find files in your directive
++ `space + b` - find files in your buffer
++ `space + g` - find text in files in your directory
+
+1) `"telescope" -tlua` - find telescope only in lua files
+2) `"telescope" -tlua nvim/lua` - find telescope only in lua files in nvim/lua directory
+
++ `space + n` - open tree menu
++ `[ + b` - switch to left buffer
++ `] + b` - switch to right buffer
