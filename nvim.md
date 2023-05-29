@@ -209,3 +209,7 @@ Git integration:
 * `gp` - watch previous changes
 * `:G blame` - show git changes in file
 * `:GBrowse` - see the file in browse in github repository
+
+* `g + d` or `cntr + i` - go to inside in method
+* `cntr + o` - jump, where method uses
+* `K` - see the doc of method
