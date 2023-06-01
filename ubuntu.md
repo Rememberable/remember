@@ -150,3 +150,8 @@ find . -name "*:Zone.Identifier" -type f -delete
 ```shell
 sudo lsof -i -P | grep LISTEN | grep :$PORT
 ```
+
+### To get access to your localhost you can via using same wifi network
+```shell
+ifconfig | grep "inet " | grep -v 127.0.0.1
+```

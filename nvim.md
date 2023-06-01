@@ -188,12 +188,14 @@ Select all the text of file
 
 + `c + s + ' + "` - replace inside `'` to `"`
 + `d + s + t` - delete surrounded tag
++ `:Rename movie.html` - rename current file to movie.html
 
 In plugins/telescope.lua you can find combinations with telescope
 
 + `space + f` - find files in your directive
 + `space + b` - find files in your buffer
 + `space + g` - find text in files in your directory
++ `space + q` - close buffer
 
 1) `"telescope" -tlua` - find telescope only in lua files
 2) `"telescope" -tlua nvim/lua` - find telescope only in lua files in nvim/lua directory
@@ -213,3 +215,18 @@ Git integration:
 * `g + d` or `cntr + i` - go to inside in method
 * `cntr + o` - jump, where method uses
 * `K` - see the doc of method
+
+Find and Replace
+
+* `:%s/gray/slate` - replace in file all one part _gray_ on line to _slate_
+* `:%s/gray/slate/g` - same, also replace all repeats on line
+* `:%s//font-medium/g` - replace finds after you use simple search `/font-semibold`
+* `:%s/text-md/text-sm/gc` - you will go one by one finds and confirm or reject to replace it
+* if you want replace only in visual section, you take visual section and replace only in it by `:'<, '>s/Link/a`
+
+Automating Repetitive Changes
+
+* `cntr + a` - increase number
+* `cntr + x` - decrease number
+* `1985 + cntr + a` - change number to 1985
+* `g + cntr + a` - increment all lines by n + 1
