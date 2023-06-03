@@ -135,3 +135,25 @@ alias gs="git status"
 alias gp="git push"
 alias grhh="git reset --hard HEAD"
 ```
+
+### Add auto pint before commit
+
+```bash
+touch .git/hooks/pre-commit
+```
+
+```bash
+vim .git/hooks/pre-commit
+```
+
+```
+#!/bin/sh
+files=$(git diff --cached --name-only --diff-filter=ACM -- '*.php');
+vendor/bin/pint $files -q
+
+git add $files
+```
+
+```bash
+chmod ug+x .git/hooks/*
+```
