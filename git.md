@@ -189,3 +189,41 @@ Edit time of last commit to current time
 ```bash
 git commit --amend --no-edit --date=now
 ```
+
+### Add multiple ssh keys for github
+
+```bash
+ssh-keygen -t rsa -C "your_email@youremail.com"
+```
+
+```text
+~/.ssh/id_rsa_activehacker
+~/.ssh/id_rsa_jexchan
+```
+
+```bash
+eval `ssh-agent -s`
+```
+
+```bash
+ssh-add ~/.ssh/id_rsa_activehacker
+ssh-add ~/.ssh/id_rsa_jexchan
+```
+
+```bash
+vim .ssh/config
+```
+
+```text
+#activehacker account
+Host github.com-activehacker
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_activehacker
+
+#jexchan account
+Host github.com-jexchan
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_jexchan
+```
