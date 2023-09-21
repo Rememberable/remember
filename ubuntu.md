@@ -155,3 +155,8 @@ sudo lsof -i -P | grep LISTEN | grep :$PORT
 ```shell
 ifconfig | grep "inet " | grep -v 127.0.0.1
 ```
+
+### Get your local IP
+```shell
+ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
+```

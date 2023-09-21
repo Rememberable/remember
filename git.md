@@ -227,3 +227,9 @@ Host github.com-jexchan
 	User git
 	IdentityFile ~/.ssh/id_rsa_jexchan
 ```
+
+### Beautiful log:
+```bash
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches"
+git lg
+```
