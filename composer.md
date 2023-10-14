@@ -5,6 +5,12 @@
 1) Go to site: https://packagist.org/ or
 2) Console command: `composer search <collection>`
 
+## Next command will show you the list of outdated packages on the root package, including package, current version and latest version
+
+```shell
+composer outdated -D
+```
+
 ## Here an example of `composer.json`
 
 ```json

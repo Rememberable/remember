@@ -2,35 +2,29 @@
 
 ## Hot button
 
-*
-* `cntr + alt + s` - open settings
-* `shift + shift` - open finder to find all files and settings in phpstorm
-* `cntr + f` - find file
-* `cntr + shift + tab` - go to the next file
-* `cntr + tab` - go to previous file
+* `cmd + ,` - open settings
+* `cmd + -` - Hide
+* `cmd + 1` - open Projects
+* `cmd + 2` - open Remote Host
+* `cmd + 3` - open Terminal
+* `cmd + =` - Not hide
+* `cmd + b` - go inside into method
+* `cmd + f` - find in file
+* `cmd + opt + m` - outline to function
+* `cmd + opt + n` - create new branch from current
+* `cmd + opt + n` - inline variable
+* `cmd + up` - structure of folder
+* `cmd + w` - Close file
+* `cmd + y` - file structure
+* `opt + j` - go to previous file in tab
+* `opt + k` - go to the next file in tab
+* `opt + p` - find file
+* `opt + shift + 1` - toggle status bar
+* `cntr + q` - quit phpstorm
 * `cntr + shift + g` - start ssh session
-* `alt + 1` - Open Projects
-* `alt + 2` - Open Remote Host
-* `alt + 3` - Open Terminal
-* `cntr + p` - Find file
-* `cntr + alt + b` - Go into the method of class
-* `cntr + w` - Close file
-* `alt + right` - switch to right file
-* `alt + left` - switch to left filet
-* `cntr + f` - find in file
-* `cntr + y` - file structure
-* `cntr + up` - structure of folder
-* `cntr + d` - duplicate
-* `cntr + shift + d` - line deletion
-* `alt + shift + 1` - toggle status bar where you can change php version, server, git branch
-* `f5` - Copy file
-* `f6` - Move file
-* `cntr + alt + b` - Introduce expression to variable
-* `cntr + alt + n` - Inline variable
-* `cntr + -` - Hide
-* `cntr + =` - Not hide
-* `alt + f4` - Close
 * `cntr + shift + n` - Toggle number lines
+* `cntr + shift + q` - close current project
+* `shift + shift` - open finder to find all files and settings in phpstorm
 
 ## Change font size
 

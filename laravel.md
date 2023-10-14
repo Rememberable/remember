@@ -64,6 +64,6 @@ Route::controller(AuthController::class)->group(function () {
 SAIL_XDEBUG_MODE=develop,debug,coverage
 ```
 
-Перезапускаем Sail
+Restart Sail
 
-Прописываем в настройках PHP > Servers абсолютный путь `/var/www/html`
+Rewrite in settings PHP > Servers to absolute path `/var/www/html`

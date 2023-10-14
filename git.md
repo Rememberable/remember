@@ -6,9 +6,9 @@
 git log --graph --pretty=format:'%Cred%h%Creset -%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
 
-### Usefull links
+### Usefully links
 
-Model development and version control in (article)[https://habr.com/ru/post/106912/]
+Model development and version control in [article](https://bitworks.software/2019-03-12-gitflow-workflow.html)
 
 ### Git version
 
@@ -190,7 +190,7 @@ Edit time of last commit to current time
 git commit --amend --no-edit --date=now
 ```
 
-### Add multiple ssh keys for github
+### Add multiple ssh keys for GitHub
 
 ```bash
 ssh-keygen -t rsa -C "your_email@youremail.com"
@@ -229,6 +229,7 @@ Host github.com-jexchan
 ```
 
 ### Beautiful log:
+
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches"
 git lg

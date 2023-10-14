@@ -2,15 +2,16 @@
 
 ### Valet - is a development environment
 
-* https://laravel.com/docs/10.x/valet
+* https://laravel.com/docs/valet
 
-### Alfred - beutiful search tool
+### Alfred - beautiful search tool
 
 * https://www.alfredapp.com
 
 ### Sequel Ace - mysql tool
 
 * https://sequel-ace.com
+* https://github.com/beekeeper-studio/beekeeper-studio/releases
 
 ### Usefully combinations on macOS
 
@@ -22,12 +23,11 @@
 1) Cmd + delete - delete file
 2) Ctrl + arrows - switch between windows
 3) Cmd + Shift + 3 - take a screenshot picture
-4) Cmd + q - close current application
-5) space - toggle preview of file
-6) Cmd + Shift + 4 - take a part of screenshot
-7) Cmd + Shift + 4 + space - will take a hover screenshot block
-8) Cntrl + Cmd + f - fullscreen application
-9) Cmd + q - close application
+4) space - toggle preview of file
+5) Cmd + Shift + 4 - take a part of screenshot
+6) Cmd + Shift + 4 + space - will take a hover screenshot block
+7) Ctrl + Cmd + f - fullscreen application
+8) Cmd + q - close application
 
 ### Homebrew - package manager
 
